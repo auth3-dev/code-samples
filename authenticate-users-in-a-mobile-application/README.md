@@ -2,6 +2,8 @@
 
 Please, read the full article [here](https://docs.auth3.dev/products/identity-platform/authenticate-users-in-a-mobile-application?utm_source=github&utm_medium=sdk&utm_campaign=integration-examples-mobile-app).
 
+This example serves a reference implementation too, if you want to use the Flutter framework, you should check-out our [Flutter Login SDK](https://docs.auth3.dev/products/identity-platform/authenticate-users-in-a-mobile-application-with-auth3-login-sdk?utm_source=github&utm_medium=sdk&utm_campaign=integration-examples-mobile-app) which provides a safe and simpler integration path.
+
 ## Run
 
 This example requires you've a locally available [Flutter SDK](https://flutter.dev) installation. Consult their website for instruction.

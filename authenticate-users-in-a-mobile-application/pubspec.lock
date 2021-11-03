@@ -70,10 +70,10 @@ packages:
   flutter_web_auth:
     dependency: "direct main"
     description:
-      path: "../flutter_web_auth"
-      relative: true
-    source: path
-    version: "0.3.0"
+      name: flutter_web_auth
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.3.1"
   matcher:
     dependency: transitive
     description:
