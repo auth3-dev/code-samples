@@ -35,14 +35,14 @@ func main() {
 
 		if token == nil || username == nil {
 			w.Write([]byte(
-				"<h1>Welcome, anonymous. Please <a href=\"/login\">login</h1>."),
+				"<h1>Welcome, anonymous. Please <a href=\"/login\">login</a></h1>."),
 			)
 			return
 		}
 
 		// TODO: get user
 		w.Write([]byte(
-			fmt.Sprintf("<h1>Welcome, %s.", username.Value)),
+			fmt.Sprintf("<h1>Welcome, %s.</h1>", username.Value)),
 		)
 		return
 	})
