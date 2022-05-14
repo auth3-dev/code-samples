@@ -35,7 +35,7 @@ func main() {
 	data := make(map[string]interface{})
 	err = json.Unmarshal(content, &data)
 	if err != nil {
-		log.Printf("decoding useringo response: %s", err.Error())
+		log.Printf("decoding userinfo response: %s", err.Error())
 		return
 	}
 
